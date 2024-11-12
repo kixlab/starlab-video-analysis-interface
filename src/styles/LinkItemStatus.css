@@ -1,0 +1,29 @@
+.hook-link-status {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid;
+
+    font-size: 12px;
+    width: fit-content;
+
+    &[type="seen"] {
+        background-color: #A4A4A4;
+        color: #fff
+    }
+    &[type="unseen"] {
+        background-color: #fff;
+        color: #a4a4a4;
+    }
+    &[type="watching"] {
+        background-color: #2D4FCD;
+        color: #fff;
+    }
+    &[type="queued"] {
+        background-color: #A2B0E7;
+        color: #fff;
+    }
+}
