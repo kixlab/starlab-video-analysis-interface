@@ -1,0 +1,114 @@
+.info-filters {
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    justify-content: flex-start;
+    gap: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #333;
+}
+
+.info-filters-title {
+    font-weight: bold;
+    opacity: 0.5;
+    &:hover {
+        opacity: 1;
+    }
+    &[status="expanded"] {
+        opacity: 1;
+        text-decoration: underline;
+    }
+}
+
+.info-filters-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.info-filters-segment-title {
+    font-size: 14px;
+    width: 60px;
+    flex-shrink: 0;
+}
+
+.info-filters-segment {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 50px;
+    width: 100%;
+}
+
+.info-filters-types {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 100%;
+}
+
+.info-filters-tags {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.info-filter-type {
+    width: 10em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 4px;
+    cursor: pointer;
+    border-left: 4px solid;
+
+    font-weight: bold;
+}
+
+.info-filter-type:hover {
+    opacity: 0.8;
+}
+
+.info-filter-type-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    font-size: 25px;
+}
+
+.info-filter-type-title {
+    padding: 4px;
+}
+
+.info-filter-tag {
+    width: 8em;
+    display: flex;
+    padding: 5px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+
+    color: #333;
+
+    /* add crossover */
+    text-decoration: line-through;
+    
+    &[status="selected"] {
+        background-color: #2D4FCD;
+        color: #fff;
+        text-decoration: none;
+    }
+}
