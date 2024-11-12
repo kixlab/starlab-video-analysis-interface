@@ -1,0 +1,264 @@
+
+
+/* VIDEO GALLERY */
+
+.video-gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 10px;
+  width: 100%;
+}
+
+.video-gallery-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 10px;
+  width: 100%;
+}
+
+.video-gallery-item {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  width: 90%;
+}
+
+/* INFORMATION PANEL */
+
+/* subgoal */ 
+.subgoal-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  width: 95%;
+}
+.subgoal-header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.subgoal-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  padding: 0 10px;
+}
+
+.subgoal-summary {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.subgoal-summary-tag {
+  font-size: 14px;
+  color: #555;
+  padding-inline: 5px;
+  /* make a circle */
+  border-radius: 50%;
+}
+
+.subgoal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-top: 10px;
+}
+
+.information-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.information-panel-filters {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid;
+}
+
+.information-panel-filter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+  border: 2px solid;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.information-panel-filter:hover {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+  border: 2px solid;
+  border-radius: 8px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+
+.information-panel-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  width: 95%;
+  height: 100%;
+  overflow: scroll;
+}
+
+.hook-item {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  gap: 5px;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.hook-header {
+  display: grid;
+  grid-template-columns: 5% 70% 25%;
+  width: 100%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.hook-button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 15px;
+}
+
+.hook-title {
+  font-size: 15px;
+  font-weight: bold;
+  color: #333;
+  flex-grow: 1;
+  padding: 0 10px;
+}
+
+.hook-tag {
+  font-size: 14px;
+  font-style: italic;
+  padding: 1px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.hook-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.hook-description {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.2;
+  padding: 10px;
+}
+
+.hook-links-title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  padding: 10px;
+}
+
+.hook-links {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+
+.hook-link {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.hook-link-body {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hook-link-thumbnail {
+  width: 100%;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.hook-link-thumbnail img {
+  width: 100%;
+}
+
+
+.hook-link-title {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.hook-link-description {
+  font-size: 13px;
+  line-height: 1.4;
+  width: 100%;
+}
+.hook-link-quotes {
+  font-size: 11px;
+  font-style: italic;
+  line-height: 1.2;
+}
+
+.hook-link-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  cursor: pointer;
+  color: #000000;
+}
+
+.hook-link-button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 15px;
+}
+
+.hook-link-button:hover {
+  color: #2196f3;
+}
